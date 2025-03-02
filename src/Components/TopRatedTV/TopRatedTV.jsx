@@ -63,7 +63,9 @@ function TopRatedTV() {
   };
 
   if (loading)
-    return <div className="text-center py-12 h-screen text-xl h-screen">Loading...</div>;
+    return (
+      <div className="text-center py-12  text-xl h-screen">Loading...</div>
+    );
 
   return (
     <div className="bg-dark-blue text-white">
